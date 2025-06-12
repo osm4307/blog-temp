@@ -1,0 +1,48 @@
+---
+description: Defines rules for React projects including component structure, Hooks usage, state management, performance optimization, and error handling.
+globs: 
+alwaysApply: false
+---
+## React 프로젝트 규칙
+
+### 1. 컴포넌트 구조
+- 함수형 컴포넌트 사용
+- Props는 인터페이스로 타입 정의
+- 컴포넌트는 단일 책임 원칙 준수
+- 재사용 가능한 컴포넌트는 별도 디렉토리로 분리
+
+### 2. Hooks 사용
+```typescript
+// 커스텀 훅 예시
+function useLocalStorage<T>(key: string, initialValue: T) {
+  const [storedValue, setStoredValue] = useState<T>(() => {
+    try {
+      const item = window.localStorage.getItem(key);
+      return item ? JSON.parse(item) : initialValue;
+    } catch (error) {
+      return initialValue;
+    }
+  });
+
+  return [storedValue, setStoredValue] as const;
+}
+```
+
+### 3. 상태 관리
+- 로컬 상태는 useState 사용
+- 전역 상태는 Context API 또는 Zustand 사용
+- 서버 상태는 React Query 사용
+- 폼 상태는 React Hook Form 사용
+
+### 4. 성능 최적화
+- React.memo로 불필요한 리렌더링 방지
+- useMemo와 useCallback 적절히 사용
+- 가상화(virtualization) 적용
+- 코드 스플리팅 활용
+
+### 5. 에러 처리
+- Error Boundary 구현
+- try-catch로 비동기 에러 처리
+- 사용자 친화적인 에러 메시지
+- 에러 로깅 시스템 구축
+

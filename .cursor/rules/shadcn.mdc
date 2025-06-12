@@ -1,0 +1,55 @@
+---
+description: Defines rules for shadcn/ui component library including installation, theme customization, component usage, accessibility, and performance optimization.
+globs: 
+alwaysApply: false
+---
+## shadcn/ui 프로젝트 규칙
+
+### 1. 컴포넌트 설치 및 관리
+- `npx shadcn-ui@latest add [component-name]` 명령어로 컴포넌트 추가
+- 컴포넌트는 `components/ui` 디렉토리에 저장
+- 테마 설정은 `components.json`에서 관리
+- 글로벌 스타일은 `globals.css`에서 관리
+
+### 2. 테마 커스터마이징
+```typescript
+// components.json 예시
+{
+  "style": "default",
+  "rsc": true,
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": "app/globals.css",
+    "baseColor": "slate",
+    "cssVariables": true
+  }
+}
+```
+
+### 3. 컴포넌트 사용
+```tsx
+// 컴포넌트 사용 예시
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
+
+export default function Page() {
+  return (
+    <Card>
+      <Button variant="outline">Click me</Button>
+    </Card>
+  )
+}
+```
+
+### 4. 접근성
+- 모든 컴포넌트는 ARIA 속성 포함
+- 키보드 네비게이션 지원
+- 색상 대비 준수
+- 스크린 리더 지원
+
+### 5. 성능 최적화
+- 필요한 컴포넌트만 설치
+- 번들 크기 모니터링
+- 지연 로딩 활용
+- 불필요한 리렌더링 방지
+

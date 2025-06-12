@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .section { fill: #ffffff; stroke: #e9ecef; stroke-width: 1; }
+      .profile { fill: #f8f9fa; stroke: #e9ecef; stroke-width: 1; }
+      .about { fill: #ffffff; stroke: #e9ecef; stroke-width: 1; }
+      .skills { fill: #f8f9fa; stroke: #e9ecef; stroke-width: 1; }
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #212529; }
+      .text { font-family: Arial, sans-serif; font-size: 14px; fill: #495057; }
+    </style>
+  </defs>
+  
+  <rect x="240" y="60" width="960" height="740" class="section"/>
+  
+  <rect x="260" y="80" width="440" height="400" class="profile"/>
+  <text x="280" y="110" class="title">프로필</text>
+  <text x="280" y="150" class="text">이름: 홍길동</text>
+  <text x="280" y="180" class="text">직업: 웹 개발자</text>
+  <text x="280" y="210" class="text">이메일: example@email.com</text>
+  
+  <rect x="740" y="80" width="440" height="400" class="about"/>
+  <text x="760" y="110" class="title">소개</text>
+  <text x="760" y="150" class="text">안녕하세요! 저는 웹 개발을 공부하고 있는 개발자입니다.</text>
+  <text x="760" y="180" class="text">React, TypeScript, Node.js 등의 기술을 다루고 있습니다.</text>
+  
+  <rect x="260" y="500" width="920" height="280" class="skills"/>
+  <text x="280" y="530" class="title">기술 스택</text>
+  <text x="280" y="570" class="text">Frontend: React, TypeScript, TailwindCSS</text>
+  <text x="280" y="600" class="text">Backend: Node.js, Express</text>
+  <text x="280" y="630" class="text">Database: MongoDB</text>
+  <text x="280" y="660" class="text">Tools: Git, VS Code</text>
+</svg> 

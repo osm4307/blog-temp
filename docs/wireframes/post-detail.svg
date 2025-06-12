@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .section { fill: #ffffff; stroke: #e9ecef; stroke-width: 1; }
+      .header { fill: #f8f9fa; stroke: #e9ecef; stroke-width: 1; }
+      .content { fill: #ffffff; stroke: #e9ecef; stroke-width: 1; }
+      .comments { fill: #f8f9fa; stroke: #e9ecef; stroke-width: 1; }
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #212529; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 16px; fill: #6c757d; }
+      .text { font-family: Arial, sans-serif; font-size: 14px; fill: #495057; }
+    </style>
+  </defs>
+  
+  <rect x="240" y="60" width="960" height="740" class="section"/>
+  
+  <rect x="260" y="80" width="920" height="120" class="header"/>
+  <text x="280" y="110" class="title">포스트 제목</text>
+  <text x="280" y="140" class="subtitle">2024-03-21 | 카테고리 | 태그1, 태그2</text>
+  
+  <rect x="260" y="220" width="920" height="400" class="content"/>
+  <text x="280" y="250" class="text">포스트 내용...</text>
+  
+  <rect x="260" y="640" width="920" height="160" class="comments"/>
+  <text x="280" y="670" class="title">댓글</text>
+  <text x="280" y="700" class="text">댓글 내용...</text>
+</svg> 

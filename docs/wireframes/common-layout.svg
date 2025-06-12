@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .header { fill: #ffffff; stroke: #e9ecef; stroke-width: 1; }
+      .sidebar { fill: #f8f9fa; stroke: #e9ecef; stroke-width: 1; }
+      .main { fill: #ffffff; stroke: #e9ecef; stroke-width: 1; }
+      .footer { fill: #f8f9fa; stroke: #e9ecef; stroke-width: 1; }
+      .text { font-family: Arial, sans-serif; font-size: 14px; fill: #495057; }
+      .title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #212529; }
+    </style>
+  </defs>
+  
+  <rect x="0" y="0" width="1200" height="60" class="header"/>
+  <text x="20" y="35" class="title">헤더</text>
+  <text x="1000" y="35" font-size="16">다크모드</text>
+  
+  <rect x="0" y="60" width="240" height="740" class="sidebar"/>
+  <text x="20" y="85" class="title">사이드바</text>
+  <text x="20" y="100" font-size="16">카테고리</text>
+  <text x="20" y="140" font-size="16">최근 포스트</text>
+  
+  <rect x="240" y="60" width="960" height="740" class="main"/>
+  <text x="260" y="85" class="title">메인 컨텐츠</text>
+  
+  <rect x="0" y="740" width="1200" height="60" class="footer"/>
+  <text x="20" y="775" class="title">푸터</text>
+</svg> 

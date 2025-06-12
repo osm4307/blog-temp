@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .section { fill: #ffffff; stroke: #e9ecef; stroke-width: 1; }
+      .header { fill: #f8f9fa; stroke: #e9ecef; stroke-width: 1; }
+      .filter { fill: #f8f9fa; stroke: #e9ecef; stroke-width: 1; }
+      .result { fill: #ffffff; stroke: #e9ecef; stroke-width: 1; }
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #212529; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 16px; fill: #6c757d; }
+      .text { font-family: Arial, sans-serif; font-size: 14px; fill: #495057; }
+    </style>
+  </defs>
+  
+  <rect x="240" y="60" width="960" height="740" class="section"/>
+  
+  <rect x="260" y="80" width="920" height="80" class="header"/>
+  <text x="280" y="120" class="title">검색어: "검색어"</text>
+  
+  <rect x="260" y="180" width="200" height="620" class="filter"/>
+  <text x="280" y="210" class="title">필터</text>
+  
+  <rect x="480" y="180" width="700" height="200" class="result"/>
+  <text x="500" y="210" class="text">검색 결과 1</text>
+  <text x="500" y="240" class="text">검색 결과 내용 미리보기...</text>
+  
+  <rect x="480" y="400" width="700" height="200" class="result"/>
+  <text x="500" y="430" class="text">검색 결과 2</text>
+  <text x="500" y="460" class="text">검색 결과 내용 미리보기...</text>
+  
+  <rect x="480" y="620" width="700" height="200" class="result"/>
+  <text x="500" y="650" class="text">검색 결과 3</text>
+  <text x="500" y="680" class="text">검색 결과 내용 미리보기...</text>
+</svg> 
