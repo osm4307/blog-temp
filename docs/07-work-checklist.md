@@ -8,67 +8,67 @@
   - [ ] Git 초기화
   - 커밋 메시지: "chore: 프로젝트 초기 설정"
 
-- [ ] TailwindCSS 설정
-  - [ ] 기본 설정
-  - [ ] 커스텀 테마 설정
-  - [ ] 다크 모드 설정
+- [x] TailwindCSS 설정
+  - [x] 기본 설정
+  - [x] 커스텀 테마 설정
+  - [x] 다크 모드 설정
   - 커밋 메시지: "chore: TailwindCSS 설정"
 
-- [ ] shadcn/ui 설정
-  - [ ] 컴포넌트 설치
-  - [ ] 테마 설정
+- [x] shadcn/ui 설정
+  - [x] 컴포넌트 설치(코드 복사 방식)
+  - [x] 테마 설정(코드 복사 방식)
   - 커밋 메시지: "chore: shadcn/ui 설정"
 
 ## 2. 기본 디렉토리 구조 설정
-- [ ] src 디렉토리 구조 생성
-  - [ ] app/
-  - [ ] components/
-  - [ ] lib/
-  - [ ] hooks/
-  - [ ] types/
-  - [ ] styles/
-  - [ ] config/
+- [x] src 디렉토리 구조 생성
+  - [x] app/
+  - [x] components/
+  - [x] lib/
+  - [x] hooks/
+  - [x] types/
+  - [x] styles/
+  - [x] config/
   - 커밋 메시지: "chore: 기본 디렉토리 구조 설정"
 
 ## 3. 공통 컴포넌트 개발
-- [ ] UI 컴포넌트 개발
-  - [ ] Button 컴포넌트
-  - [ ] Card 컴포넌트
-  - [ ] Form 컴포넌트들
+- [x] UI 컴포넌트 개발
+  - [x] Button 컴포넌트
+  - [x] Card 컴포넌트
+  - [x] Form 컴포넌트들
   - 커밋 메시지: "feat: 기본 UI 컴포넌트 구현"
 
-- [ ] 레이아웃 컴포넌트 개발
-  - [ ] Header
-  - [ ] Sidebar
-  - [ ] Footer
+- [x] 레이아웃 컴포넌트 개발
+  - [x] Header
+  - [x] Sidebar
+  - [x] Footer
   - 커밋 메시지: "feat: 레이아웃 컴포넌트 구현"
 
 ## 4. 상태 관리 설정
-- [ ] React Query 설정
-  - [ ] 기본 설정
-  - [ ] 캐싱 전략 설정
+- [x] React Query 설정
+  - [x] 기본 설정
+  - [x] 캐싱 전략 설정
   - 커밋 메시지: "feat: React Query 설정"
 
-- [ ] Context API 설정
-  - [ ] 테마 Context
-  - [ ] UI 상태 Context
+- [x] Context API 설정
+  - [x] 테마 Context
+  - [x] UI 상태 Context
   - 커밋 메시지: "feat: Context API 설정"
 
 ## 5. 페이지 개발
-- [ ] 홈페이지
-  - [ ] 레이아웃 구현
-  - [ ] 최신 포스트 목록 구현
+- [x] 홈페이지
+  - [x] 레이아웃 구현
+  - [x] 최신 포스트 목록 구현
   - 커밋 메시지: "feat: 홈페이지 구현"
 
-- [ ] 블로그 포스트 목록 페이지
-  - [ ] 레이아웃 구현
-  - [ ] 검색 기능 구현
-  - [ ] 필터링 기능 구현
+- [x] 블로그 포스트 목록 페이지
+  - [x] 레이아웃 구현
+  - [x] 검색 기능 구현
+  - [x] 필터링 기능 구현
   - 커밋 메시지: "feat: 블로그 포스트 목록 페이지 구현"
 
 - [ ] 블로그 포스트 상세 페이지
   - [ ] 레이아웃 구현
-  - [ ] MDX 렌더링 구현
+  - [ ] 마크다운 렌더링 구현
   - [ ] 댓글 기능 구현
   - 커밋 메시지: "feat: 블로그 포스트 상세 페이지 구현"
 
